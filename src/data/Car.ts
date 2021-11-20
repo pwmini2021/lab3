@@ -1,6 +1,8 @@
 import carsFromJSON from "./cars.json"
+import {Key} from "react";
 
 export interface Car {
+    id: Key;
     name: string;
     pricePerDay: number;
     seats: number;
